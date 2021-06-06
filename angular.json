@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-sawaa"
+    }
+  },
+  "defaultProject": "angular-sawaa",
+  "cli": {
+    "analytics": "be333597-e0cc-4926-b0af-ba34811c7df3"
+  }
 }
