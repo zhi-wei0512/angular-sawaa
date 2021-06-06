@@ -3,8 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {IndexModule }from './index/index.module';
-
+import { IndexModule }from './index/index.module';
+import { NgxSmartModalModule } from 'ngx-smart-modal';
 
 @NgModule({
   declarations: [
@@ -13,6 +13,7 @@ import {IndexModule }from './index/index.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgxSmartModalModule,
     IndexModule,
   ],
   providers: [],
