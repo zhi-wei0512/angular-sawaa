@@ -13,7 +13,7 @@ import { NgxSmartModalModule } from 'ngx-smart-modal';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgxSmartModalModule,
+    NgxSmartModalModule.forRoot(),
     IndexModule,
   ],
   providers: [],
