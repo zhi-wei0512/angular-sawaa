@@ -1,0 +1,82 @@
+
+
+// menu滑出控制
+.sidebar-wrapper {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#MenuPanel{
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: hidden;
+    overflow :scroll;
+    background: #f7f7f7;
+    // background: #fff;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.2s ease;
+    transition-duration:  0.2s;
+    margin-top: 16px;
+}
+#MenuPanel.toggled{
+  width: 250px;
+}
+
+// menu a 連結樣式
+#MenuPanel .sidebar-wrapper a {
+  font-size: 1.125rem;
+  color: #333;
+  border: none;
+  line-height: normal;
+}
+.sidr ul li {
+}
+.c-menu-main {
+  padding-bottom: 350px;
+}
+#MenuPanel .sidebar-wrapper ul{
+  width: 100%;
+  position: relative;
+  left: -15px;
+  position: relative;
+}
+
+// 多層選單menu
+.List-item ul{
+  display: none;
+}
+.List-item ul li{
+  line-height: normal !important;
+
+}
+.List-item ul li a{
+  position: relative;
+  left: 15px;
+  color:#333;
+  padding: 1px;
+
+}
+.List-item ul li a:hover{
+  position: relative;
+  padding: 0px;
+  color:rgb(0, 0, 0)
+}
+li.lvtwo {
+  padding: 0 17px;
+}
+
+
+#MenuPanel .MenuPanel-section ul {
+  width: 100%;
+  border: none!important;
+}
+#MenuPanel .c-menu-bottom {
+  margin-top: auto;
+}

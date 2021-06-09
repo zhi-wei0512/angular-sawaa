@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+p , a ,body{
+  font-family: cursive !important;
+  text-decoration:none !important;
+}
+ol, ul {
+  list-style: none !important;;
+}
+a:hover {
+  color: #000!important;
+}

@@ -1,0 +1,125 @@
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.c-wrapper {
+  height: 37px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.bg-black {
+  background-color: #000;
+}
+.NavigationBar .c-promote {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+.align-center {
+  text-align: center;
+}
+.color-white {
+  color: #fff;
+}
+// logo
+.NavigationBar .c-nav-logo {
+  width: 144px;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+img {
+  max-height: 100%;
+}
+//menu-click
+.NavigationBar .c-hamburger {
+  width: 45px;
+  height: 45px;
+  margin-left: -12px;
+  position: relative;
+  cursor: pointer;
+}
+.NavigationBar .c-hamburger i {
+  width: 15px;
+  height: 1px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -1px 0 0 -9px;
+}
+.NavigationBar .c-hamburger i:before {
+  top: -4px;
+}
+.NavigationBar .c-hamburger i:after, .NavigationBar .c-hamburger i:before {
+  content: '';
+  height: 1px;
+  background: #000;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.NavigationBar .c-hamburger i:after {
+  bottom: -4px;
+}
+
+// 購物車
+.NavigationBar .c-nav-list li {
+  padding-left: 1em;
+}
+.NavigationBar .c-nav-language a {
+  font-size: 1rem;
+  opacity: .65;
+  pointer-events: all;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  outline: 0!important;
+    color: #000;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.NavigationBar .Cart-count {
+  display: inline;
+  position: relative;
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  right: auto;
+  top: auto;
+  text-indent: 0;
+}
+ol, ul {
+  list-style: none;
+}
+.NavigationBar .c-nav-language a:first-child:after {
+  content: '/';
+  display: inline-block;
+}
+.fa-shopping-cart:before {
+  content: "\f07a";
+}

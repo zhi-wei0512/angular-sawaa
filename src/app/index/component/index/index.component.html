@@ -1,2 +1,42 @@
-<p>index works!</p>
-<router-outlet></router-outlet>
+<nav class="NavigationBar mod-mobile js-navbar-mobile active">
+  <!-- 最上方黑nav -->
+  <div class="c-promote c-wrapper flex-wrap align-items-center justify-content-center bg-black">
+    <a href="#">
+      <p class="color-white align-center">夏季滿額贈・享受夏天的自然力<span>＋</span>
+      </p>
+    </a>
+  </div>
+  <!-- /.最上方黑nav -->
+  <div class="c-nav-container c-wrapper flex-wrap align-items-center justify-content-between">
+    <!-- 漢堡圖標 -->
+    <div class="c-hamburger sl-menu-panel-toggle" (click)="toggleMenu()">
+      <i id="menu-toggle">
+
+        <app-menu [showMenu]="showMenu"></app-menu>
+      </i>
+    </div>
+    <!-- /.漢堡圖標 -->
+    <!-- 上方中間圖案 -->
+    <a class="c-nav-logo" href="/">
+      <img src="https://shoplineimg.com/5e9d2e53684127001c01618e/5e9dc117ee4b6200157d83e6/x140.webp?source_format=jpg">
+    </a>
+    <!-- /.上方中間圖案 -->
+    <!-- /.最右邊按鈕 -->
+    <ul class="c-nav-list flex-wrap align-items-center">
+      <li>
+        <div class="c-nav-language sl-language-chooser ng-isolate-scope">
+          <a href="en" class="List-item sl-language-chooser-language"> EN </a>
+          <a href="zh-hant" class="List-item sl-language-chooser-language active">中文 </a>
+        </div>
+      </li>
+      <li>
+        <a class="c-nav-cart sl-cart-toggle">
+          <span class="fa fa-shopping-cart"><span class="Cart-count sl-cart-count ng-isolate-scope"
+              style="display: inline;">1</span></span>
+        </a>
+      </li>
+    </ul>
+    <!-- /.最右邊按鈕 -->
+  </div>
+</nav>
+<!-- <router-outlet></router-outlet> -->
