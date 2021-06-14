@@ -1,0 +1,145 @@
+//輪播
+.carousel .carousel-item {
+  height: 500px;
+}
+
+.carousel .carousel-item img {
+  min-height: 700px;
+  max-height: 500px;
+  object-fit: cover;
+}
+.carousel-control-prev-icon {
+  background-color: transparent;
+}
+
+///商品區塊
+
+.container-row {
+  flex-direction: row;
+  justify-content: center;
+  flex-grow: 1;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 50px;
+  max-width: 100%;
+  background: #fff;
+  position: relative;
+  flex-grow: 1;
+}
+.info-box {
+  text-align: center;
+  background: #fff;
+}
+
+.boxify-image {
+  min-height: 490px;
+  background-position: center center;
+}
+//tag
+.member-price-tag {
+  font-size: 12px;
+  padding: 5px 10px;
+  margin: 0;
+  border-radius: 0;
+  text-transform: uppercase;
+  position: absolute;
+  top: auto;
+  left: auto;
+  right: 0;
+  bottom: calc(1em + 14px);
+  background: #000;
+  color: #fff;
+}
+.boxify-image-wrapper {
+  position: relative;
+  padding-top: 49px;
+  padding-bottom: 49px;
+}
+.btn-add-to-cart {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-size: 0.95rem;
+  padding: 0.5em 15px;
+  margin: 0;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0;
+  background: #e6e6e6;
+  text-align: left !important;
+  visibility: hidden;
+}
+.container-row-a:hover {
+  background-color: #f3f3f3ff !important;
+  .info-box {
+    background-color: #f3f3f3ff !important;
+  }
+  .btn-add-to-cart {
+    background-color: #e6e6e6 !important;
+    visibility: visible;
+  }
+  .boxify-image-wrapper {
+    background-color: #f3f3f3ff !important;
+  }
+}
+//下方文字
+.align-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 100%;
+  width: 58%;
+  padding: 0;
+  margin: 50px auto;
+  max-width: 100%;
+  background: #fff;
+}
+.content {
+  text-align: center;
+  background: #fff;
+}
+// footer
+.c-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+  padding: 17px 7px;
+  margin: 0px;
+  max-width: 100%;
+  background: #fff;
+  position: relative;
+  flex-grow: 1;
+  justify-content: space-between;
+  font-size: 0.95em;
+  line-height: 10px;
+}
+.c-footer-left{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.c-footer-left ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 0px;
+  padding: 0px;
+}
+.c-footer .c-footer-left a {
+  padding: 1em .5em .5em;
+}
+.c-footer-rigth{
+  margin: 0px;
+  padding-top: 15px;
+}
